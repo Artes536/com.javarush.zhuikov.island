@@ -47,17 +47,17 @@ public class EatingRules {
 
     public static class Prey {
         @JacksonXmlProperty(isAttribute = true)
-        private String type;
+        private String prey;
 
         @JacksonXmlProperty(isAttribute = true)
         private double chance;
 
-        public String getType() {
-            return type;
+        public String getPrey() {
+            return prey;
         }
 
-        public void setType(String type) {
-            this.type = type;
+        public void setPrey(String prey) {
+            this.prey = prey;
         }
 
         public double getChance() {
