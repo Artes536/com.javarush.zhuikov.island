@@ -1,0 +1,257 @@
+<EatingRules>
+    <Rule animal="Wolf">
+        <Prey prey="Python" chance="0"/>
+        <Prey prey="Fox" chance="0"/>
+        <Prey prey="Bear" chance="0"/>
+        <Prey prey="Eagle" chance="0"/>
+        <Prey prey="Horse" chance="10"/>
+        <Prey prey="Deer" chance="15"/>
+        <Prey prey="Rabbit" chance="60"/>
+        <Prey prey="Mouse" chance="80"/>
+        <Prey prey="Goat" chance="60"/>
+        <Prey prey="Sheep" chance="70"/>
+        <Prey prey="Boar" chance="15"/>
+        <Prey prey="Buffalo" chance="10"/>
+        <Prey prey="Duck" chance="40"/>
+        <Prey prey="Caterpillar" chance="0"/>
+        <Prey prey="Plant" chance="0"/>
+    </Rule>
+<Rule animal="Python">
+        <Prey prey="Python" chance="0"/>
+        <Prey prey="Fox" chance="15"/>
+        <Prey prey="Bear" chance="0"/>
+        <Prey prey="Eagle" chance="0"/>
+        <Prey prey="Horse" chance="0"/>
+        <Prey prey="Deer" chance="0"/>
+        <Prey prey="Rabbit" chance="20"/>
+        <Prey prey="Mouse" chance="40"/>
+        <Prey prey="Goat" chance="0"/>
+        <Prey prey="Sheep" chance="0"/>
+        <Prey prey="Boar" chance="0"/>
+        <Prey prey="Buffalo" chance="0"/>
+        <Prey prey="Duck" chance="10"/>
+        <Prey prey="Caterpillar" chance="0"/>
+        <Prey prey="Plant" chance="0"/>
+    </Rule>
+    <Rule animal="Fox">
+        <Prey prey="Python" chance="0"/>
+        <Prey prey="Fox" chance="0"/>
+        <Prey prey="Bear" chance="0"/>
+        <Prey prey="Eagle" chance="0"/>
+        <Prey prey="Horse" chance="0"/>
+        <Prey prey="Deer" chance="0"/>
+        <Prey prey="Rabbit" chance="70"/>
+        <Prey prey="Mouse" chance="90"/>
+        <Prey prey="Goat" chance="0"/>
+        <Prey prey="Sheep" chance="0"/>
+        <Prey prey="Boar" chance="0"/>
+        <Prey prey="Buffalo" chance="0"/>
+        <Prey prey="Duck" chance="60"/>
+        <Prey prey="Caterpillar" chance="40"/>
+        <Prey prey="Plant" chance="0"/>
+    </Rule>
+    <Rule animal="Bear">
+        <Prey prey="Python" chance="0"/>
+        <Prey prey="Fox" chance="80"/>
+        <Prey prey="Bear" chance="0"/>
+        <Prey prey="Eagle" chance="0"/>
+        <Prey prey="Horse" chance="40"/>
+        <Prey prey="Deer" chance="80"/>
+        <Prey prey="Rabbit" chance="80"/>
+        <Prey prey="Mouse" chance="90"/>
+        <Prey prey="Goat" chance="70"/>
+        <Prey prey="Sheep" chance="70"/>
+        <Prey prey="Boar" chance="50"/>
+        <Prey prey="Buffalo" chance="20"/>
+        <Prey prey="Duck" chance="10"/>
+        <Prey prey="Caterpillar" chance="0"/>
+        <Prey prey="Plant" chance="0"/>
+    </Rule>
+    <Rule animal="Eagle">
+        <Prey prey="Python" chance="0"/>
+        <Prey prey="Fox" chance="0"/>
+        <Prey prey="Bear" chance="10"/>
+        <Prey prey="Eagle" chance="0"/>
+        <Prey prey="Horse" chance="0"/>
+        <Prey prey="Deer" chance="0"/>
+        <Prey prey="Rabbit" chance="90"/>
+        <Prey prey="Mouse" chance="90"/>
+        <Prey prey="Goat" chance="0"/>
+        <Prey prey="Sheep" chance="0"/>
+        <Prey prey="Boar" chance="0"/>
+        <Prey prey="Buffalo" chance="0"/>
+        <Prey prey="Duck" chance="80"/>
+        <Prey prey="Caterpillar" chance="0"/>
+        <Prey prey="Plant" chance="0"/>
+    </Rule>
+<Rule animal="Horse">
+    <Prey prey="Python" chance="0"/>
+    <Prey prey="Fox" chance="0"/>
+    <Prey prey="Bear" chance="0"/>
+    <Prey prey="Eagle" chance="0"/>
+    <Prey prey="Horse" chance="0"/>
+    <Prey prey="Deer" chance="0"/>
+    <Prey prey="Rabbit" chance="0"/>
+    <Prey prey="Mouse" chance="0"/>
+    <Prey prey="Goat" chance="0"/>
+    <Prey prey="Sheep" chance="0"/>
+    <Prey prey="Boar" chance="0"/>
+    <Prey prey="Buffalo" chance="0"/>
+    <Prey prey="Duck" chance="0"/>
+    <Prey prey="Caterpillar" chance="0"/>
+    <Prey prey="Plant" chance="100"/>
+</Rule>
+<Rule animal="Deer">
+    <Prey prey="Python" chance="0"/>
+    <Prey prey="Fox" chance="0"/>
+    <Prey prey="Bear" chance="0"/>
+    <Prey prey="Eagle" chance="0"/>
+    <Prey prey="Horse" chance="0"/>
+    <Prey prey="Deer" chance="0"/>
+    <Prey prey="Rabbit" chance="0"/>
+    <Prey prey="Mouse" chance="0"/>
+    <Prey prey="Goat" chance="0"/>
+    <Prey prey="Sheep" chance="0"/>
+    <Prey prey="Boar" chance="0"/>
+    <Prey prey="Buffalo" chance="0"/>
+    <Prey prey="Duck" chance="0"/>
+    <Prey prey="Caterpillar" chance="0"/>
+    <Prey prey="Plant" chance="100"/>
+</Rule>
+<Rule animal="Rabbit">
+    <Prey prey="Python" chance="0"/>
+    <Prey prey="Fox" chance="0"/>
+    <Prey prey="Bear" chance="0"/>
+    <Prey prey="Eagle" chance="0"/>
+    <Prey prey="Horse" chance="0"/>
+    <Prey prey="Deer" chance="0"/>
+    <Prey prey="Rabbit" chance="0"/>
+    <Prey prey="Mouse" chance="0"/>
+    <Prey prey="Goat" chance="0"/>
+    <Prey prey="Sheep" chance="0"/>
+    <Prey prey="Boar" chance="0"/>
+    <Prey prey="Buffalo" chance="0"/>
+    <Prey prey="Duck" chance="0"/>
+    <Prey prey="Caterpillar" chance="0"/>
+    <Prey prey="Plant" chance="100"/>
+</Rule>
+<Rule animal="Mouse">
+    <Prey prey="Python" chance="0"/>
+    <Prey prey="Fox" chance="0"/>
+    <Prey prey="Bear" chance="0"/>
+    <Prey prey="Eagle" chance="0"/>
+    <Prey prey="Horse" chance="0"/>
+    <Prey prey="Deer" chance="0"/>
+    <Prey prey="Rabbit" chance="0"/>
+    <Prey prey="Mouse" chance="0"/>
+    <Prey prey="Goat" chance="0"/>
+    <Prey prey="Sheep" chance="0"/>
+    <Prey prey="Boar" chance="0"/>
+    <Prey prey="Buffalo" chance="0"/>
+    <Prey prey="Duck" chance="0"/>
+    <Prey prey="Caterpillar" chance="90"/>
+    <Prey prey="Plant" chance="100"/>
+</Rule>
+<Rule animal="Goat">
+    <Prey prey="Python" chance="0"/>
+    <Prey prey="Fox" chance="0"/>
+    <Prey prey="Bear" chance="0"/>
+    <Prey prey="Eagle" chance="0"/>
+    <Prey prey="Horse" chance="0"/>
+    <Prey prey="Deer" chance="0"/>
+    <Prey prey="Rabbit" chance="0"/>
+    <Prey prey="Mouse" chance="0"/>
+    <Prey prey="Goat" chance="0"/>
+    <Prey prey="Sheep" chance="0"/>
+    <Prey prey="Boar" chance="0"/>
+    <Prey prey="Buffalo" chance="0"/>
+    <Prey prey="Duck" chance="0"/>
+    <Prey prey="Caterpillar" chance="0"/>
+    <Prey prey="Plant" chance="100"/>
+</Rule>
+<Rule animal="Sheep">
+    <Prey prey="Python" chance="0"/>
+    <Prey prey="Fox" chance="0"/>
+    <Prey prey="Bear" chance="0"/>
+    <Prey prey="Eagle" chance="0"/>
+    <Prey prey="Horse" chance="0"/>
+    <Prey prey="Deer" chance="0"/>
+    <Prey prey="Rabbit" chance="0"/>
+    <Prey prey="Mouse" chance="0"/>
+    <Prey prey="Goat" chance="0"/>
+    <Prey prey="Sheep" chance="0"/>
+    <Prey prey="Boar" chance="0"/>
+    <Prey prey="Buffalo" chance="0"/>
+    <Prey prey="Duck" chance="0"/>
+    <Prey prey="Caterpillar" chance="0"/>
+    <Prey prey="Plant" chance="100"/>
+</Rule>
+<Rule animal="Boar">
+    <Prey prey="Python" chance="0"/>
+    <Prey prey="Fox" chance="0"/>
+    <Prey prey="Bear" chance="0"/>
+    <Prey prey="Eagle" chance="0"/>
+    <Prey prey="Horse" chance="0"/>
+    <Prey prey="Deer" chance="0"/>
+    <Prey prey="Rabbit" chance="0"/>
+    <Prey prey="Mouse" chance="50"/>
+    <Prey prey="Goat" chance="0"/>
+    <Prey prey="Sheep" chance="0"/>
+    <Prey prey="Boar" chance="0"/>
+    <Prey prey="Buffalo" chance="0"/>
+    <Prey prey="Duck" chance="0"/>
+    <Prey prey="Caterpillar" chance="90"/>
+    <Prey prey="Plant" chance="100"/>
+</Rule>
+<Rule animal="Buffalo">
+    <Prey prey="Python" chance="0"/>
+    <Prey prey="Fox" chance="0"/>
+    <Prey prey="Bear" chance="0"/>
+    <Prey prey="Eagle" chance="0"/>
+    <Prey prey="Horse" chance="0"/>
+    <Prey prey="Deer" chance="0"/>
+    <Prey prey="Rabbit" chance="0"/>
+    <Prey prey="Mouse" chance="0"/>
+    <Prey prey="Goat" chance="0"/>
+    <Prey prey="Sheep" chance="0"/>
+    <Prey prey="Boar" chance="0"/>
+    <Prey prey="Buffalo" chance="0"/>
+    <Prey prey="Duck" chance="0"/>
+    <Prey prey="Caterpillar" chance="0"/>
+    <Prey prey="Plant" chance="100"/>
+</Rule>
+<Rule animal="Duck">
+    <Prey prey="Python" chance="0"/>
+    <Prey prey="Fox" chance="0"/>
+    <Prey prey="Bear" chance="0"/>
+    <Prey prey="Eagle" chance="0"/>
+    <Prey prey="Horse" chance="0"/>
+    <Prey prey="Deer" chance="0"/>
+    <Prey prey="Rabbit" chance="0"/>
+    <Prey prey="Mouse" chance="0"/>
+    <Prey prey="Goat" chance="0"/>
+    <Prey prey="Sheep" chance="0"/>
+    <Prey prey="Boar" chance="0"/>
+    <Prey prey="Buffalo" chance="0"/>
+    <Prey prey="Duck" chance="0"/>
+    <Prey prey="Caterpillar" chance="90"/>
+    <Prey prey="Plant" chance="100"/>
+</Rule>
+<Rule animal="Caterpillar">
+    <Prey prey="Python" chance="0"/>
+    <Prey prey="Fox" chance="0"/>
+    <Prey prey="Bear" chance="0"/>
+    <Prey prey="Eagle" chance="0"/>
+    <Prey prey="Horse" chance="0"/>
+    <Prey prey="Deer" chance="0"/>
+    <Prey prey="Rabbit" chance="0"/>
+    <Prey prey="Mouse" chance="0"/>
+    <Prey prey="Goat" chance="0"/>
+    <Prey prey="Sheep" chance="0"/>
+    <Prey prey="Boar" chance="0"/>
+    <Prey prey="Buffalo" chance="0"/>
+    <Prey prey="Duck" chance="0"/>
+    <Prey prey="Caterpillar" chance="0"/>
+    <Prey prey="Plant" chance="100"/>
+</Rule>
+</EatingRules>
